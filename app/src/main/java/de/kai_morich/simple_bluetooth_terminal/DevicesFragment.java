@@ -27,7 +27,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class DevicesFragment extends ListFragment {
-
     private BluetoothAdapter bluetoothAdapter;
     private final ArrayList<BluetoothDevice> listItems = new ArrayList<>();
     private ArrayAdapter<BluetoothDevice> listAdapter;
